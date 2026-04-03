@@ -13,3 +13,18 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+
+# Игнорировать папки IDE
+.idea/
+*.iml
+
+# Игнорировать папки Gradle
+.gradle/
+build/
+
+# Игнорировать файлы macOS
+.DS_Store
+
+# Игнорировать другие временные папки (если есть)
+mobileprograms/

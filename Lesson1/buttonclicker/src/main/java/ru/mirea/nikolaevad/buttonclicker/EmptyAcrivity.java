@@ -27,7 +27,7 @@ public class EmptyAcrivity extends AppCompatActivity {
 
         View.OnClickListener oclBtnWhoAmI = new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) { 
                 textViewStudent.setText("Мой номер по списку №9");
                 checkBox1.setChecked(true);
             }
